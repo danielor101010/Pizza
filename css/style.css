@@ -1,0 +1,322 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: cursive;
+
+}
+
+header{
+  background-image: url(../pizza.jpg);
+  background-repeat: repeat;
+  height: 330vh;
+  width: cover;
+  background-size: 100%;
+  background-position: top;
+}
+
+
+.capacity {
+text-align: center;
+
+  height: 400px;
+  position: relative;
+  top: 150px;
+  background: 	#000000;
+  opacity: .5;
+transition: 0.6s ease;
+}
+.capacity:hover{
+  background-color: #B8860B;
+  color: #000;
+}
+
+ul{
+  float: left;
+  list-style-type: none;
+}
+ul li{
+  display: inline-block;
+width: 150px;
+  position: relative;
+top: -380px;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  transition: 0.6s ease;
+  cursor: pointer;
+
+}
+ul li a:hover{
+background-color: #fff;
+color: #000;
+
+}
+.centered {
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #808000;
+
+}
+h1 {
+  position: absolute;
+  top: -50px;
+  font-size: 100px;
+  color: #C0C0C0;
+    padding: 1px 20px;
+}
+h2 {
+  font-size: 50px;
+  position: relative;
+  top: 100px;
+    right: 0px;
+  color: #C0C0C0;
+}
+#menu{
+  font-family:serif ;
+  font-size: 50px;
+  position: relative;
+  top: 390px;
+
+    right: 0px;
+  color: #C0C0C0;
+}
+
+#btn {
+  border:3px solid #222;
+  border-radius: 3px;
+  color: #FFEBCD;
+  font-size: 30px;
+  font-family: serif;
+  width: 200px;
+  top: 353px;
+  background-color:#222;
+
+}
+#btn:hover{
+background-color: #B8860B;
+color: #000;
+opacity: .6;
+transition: 0.6s ease;
+
+}
+.btn1{
+
+  width: 250px;
+  height: 400px;
+  top: 800px;
+  left: 250px;
+  position: absolute;
+  border:3px solid #555;
+  border-radius: 3px;
+  box-shadow:  -10px -10px 10px rgba(0,0,0,1);
+  cursor: pointer;
+    background-image: url(../pesto.jfif);
+
+
+}
+
+.btn2{
+  padding:0;
+  margin: 0;
+  width: 250px;
+  height: 400px;
+  top: 800px;
+  left:510px;
+  position: absolute;
+  border:3px solid #555;
+  border-radius: 3px;
+    box-shadow:  -10px -10px 10px rgba(0,0,0,1);
+  transition-duration: 60s;
+  cursor: pointer;
+  background-image: url(../tartpizza.jpg);
+
+}
+.btn3{
+  padding:0;
+  margin: 0;
+  width: 250px;
+  height: 400px;
+  top: 800px;
+  left:770px;
+  position: absolute;
+  border:3px solid #555;
+  border-radius: 3px;
+    box-shadow:  -10px -10px 10px rgba(0,0,0,1);
+  transition-duration: 60s;
+  cursor: pointer;
+  background-image: url(../benediktpizza.jpg);
+
+}
+.btn4{
+  padding:0;
+  margin: 0;
+  width: 250px;
+  height: 400px;
+  top: 800px;
+  left:1030px;
+  position: absolute;
+  border:3px solid #555;
+  border-radius: 3px;
+    box-shadow:  -10px -10px 10px rgba(0,0,0,1);
+  transition-duration: 60s;
+  cursor: pointer;
+  background-image: url(../margarita.jpg);
+
+}
+.btn5{
+  padding:0;
+  margin: 0;
+  width: 250px;
+  height: 400px;
+  top: 1205px;
+  left:250px;
+  position: absolute;
+  border:3px solid #555;
+  border-radius: 3px;
+    box-shadow:  -10px -10px 10px rgba(0,0,0,1);
+  transition-duration: 60s;
+  cursor: pointer;
+  background-image: url(../pizza4.jpg);
+
+}.btn6{
+  padding:0;
+  margin: 0;
+  width: 250px;
+  height: 400px;
+  top: 1205px;
+  left:510px;
+  position: absolute;
+  border:3px solid #555;
+  border-radius: 3px;
+    box-shadow:  -10px -10px 10px rgba(0,0,0,1);
+  transition-duration: 60s;
+  cursor: pointer;
+  background-image: url(../pizza3.jpg);
+
+}.btn7{
+  padding:0;
+  margin: 0;
+  width: 250px;
+  height: 400px;
+  top: 1205px;
+  left:770px;
+  position: absolute;
+  border:3px solid #555;
+  border-radius: 3px;
+    box-shadow:  -10px -10px 10px rgba(0,0,0,1);
+  transition-duration: 60s;
+  cursor: pointer;
+  background-image: url(../pizza1.jpg);
+
+}.btn8{
+  padding:0;
+  margin: 0;
+  width: 250px;
+  height: 400px;
+  top:1205px;
+  left:1030px;
+  position: absolute;
+  border:3px solid #555;
+  border-radius: 3px;
+    box-shadow:  -10px -10px 10px rgba(0,0,0,1);
+  transition-duration: 60s;
+  cursor: pointer;
+  background-image: url(../pizza2.jpg);
+
+}
+.options{
+  background: #222;
+  height: 40px;
+  width: 915px;
+  border-radius: 20px;
+  position: absolute;
+  left: 20%;
+  top: 1750px;
+}
+.options h4{
+  font-size: 20px;
+  padding: 4px;
+  position: absolute;
+  left: 40%;
+  color: #FFEBCD;
+}
+.PizzaSize{
+  background: url(../veg.jpg);
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  position: absolute;
+  top: 45px;
+  opacity:.9;
+  box-shadow:  -10px -10px 10px rgba(0,0,0,0.5);
+
+}
+.dough{
+  background: url(../dough.jpg);
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  position: absolute;
+  left: 305px;
+  top: 45px;
+  opacity: .9;
+  box-shadow:  -10px -10px 10px rgba(0,0,0,0.5);
+
+}
+
+.drinks{
+  background: url(../drinks.jpg);
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  position: absolute;
+  left: 610px;
+  top: 45px;
+  box-shadow:  -10px -10px 10px rgba(0,0,0,0.5);
+}
+.Drinks{
+position: relative;
+background-color: #000000;
+border: 3px;
+border-radius: 3px;
+border-color: #000000;
+color: #FFEBCD;
+font-size: 25px;
+cursor: pointer;
+
+}
+.Drinks:hover{
+background-color: #B8860B;
+color: #000;
+opacity: .6;
+transition: 0.6s ease;
+l
+
+}
+
+.submit{
+  background-color: #000000;
+  color: #FFEBCD;
+  height: 40px;
+  width: 915px;
+  top:2230px;
+  left:20%;
+  position:absolute;
+  font-size: 25px;
+  border:3px;
+  border-radius: 20px;
+  box-shadow:  -5px -5px 5px rgba(0,0,0,1);
+  cursor: pointer;
+
+}
+.submit:hover{
+  background-color: #B8860B;
+  color: #000;
+  opacity: .7;
+  transition: 0.6s ease;
+}
